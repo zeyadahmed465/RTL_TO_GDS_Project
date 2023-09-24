@@ -1,0 +1,26 @@
+Info:  Net Ref:/WORK/REG_FILE/Reg_File[16][7] is undriven.
+Info:  Net Ref:/WORK/REG_FILE/Reg_File[16][6] is undriven.
+Info:  Net Ref:/WORK/REG_FILE/Reg_File[16][5] is undriven.
+Info:  Net Ref:/WORK/REG_FILE/Reg_File[16][4] is undriven.
+Info:  Net Ref:/WORK/REG_FILE/Reg_File[16][3] is undriven.
+Info:  Net Ref:/WORK/REG_FILE/Reg_File[16][2] is undriven.
+Info:  Net Ref:/WORK/REG_FILE/Reg_File[16][1] is undriven.
+Info:  Net Ref:/WORK/REG_FILE/Reg_File[16][0] is undriven.
+Info:  Net Imp:/WORK/ALU_DW01_sub_0/CO is undriven.
+Info:  Net Imp:/WORK/ALU_DW01_add_0/CO is undriven.
+Info:  Net Imp:/WORK/ALU_DW01_add_1/CO is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_1/remainder[7] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_1/remainder[6] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_1/remainder[5] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_1/remainder[4] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_1/remainder[3] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_1/remainder[2] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_1/remainder[1] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_1/remainder[0] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_1/divide_by_0 is undriven.
+Info:  guide_uniquify 80 (Line: 568)  Cannot find object "U1_ClkDiv/U11" in design 'SYSTEM'.
+Info:  SVF Operation 80 (Line: 568) - uniquify.  Status: rejected
+Info:  guide_uniquify 80 (Line: 568)  Cannot find object "U0_ClkDiv/U11" in design 'SYSTEM'.
+Info:  guide_uniquify 88 (Line: 609)  Cannot find object "U0_ALU/dp_cluster_0/mult_56" in design 'SYSTEM'.
+Info:  Pre-verification of Ref:/WORK/ALU/div_60 SUCCEEDED.
+Info:  Pre-verification of Ref:/WORK/ALU/mult_56 SUCCEEDED.
