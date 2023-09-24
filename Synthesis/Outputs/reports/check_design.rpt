@@ -1,0 +1,528 @@
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Wed Sep 20 03:25:25 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      9
+    Unconnected ports (LINT-28)                                     7
+    Constant outputs (LINT-52)                                      2
+
+Cells                                                              26
+    Cells do not drive (LINT-1)                                    15
+    Connected to power or ground (LINT-32)                         10
+    Nets connected to multiple pins on same cell (LINT-33)          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'Clock_Divider', cell 'C121' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C342' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C343' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C344' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C345' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C370' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C372' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'r_empty_P_SIZE4', cell 'C199' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', cell 'C202' does not drive any nets. (LINT-1)
+Warning: In design 'Serializer', cell 'C128' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C78' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C108' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C109' does not drive any nets. (LINT-1)
+Warning: In design 'deserializer', cell 'C103' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[7]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[6]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[5]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[4]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[3]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[2]' is connected to logic 1. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[1]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[0]' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'D' is connected to logic 1. 
+Warning: In design 'SYSTEM', the same net is connected to more than one pin on submodule 'U1_ClkDiv'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'i_div_ratio[7]', 'i_div_ratio[6]'', 'i_div_ratio[5]', 'i_div_ratio[4]', 'i_div_ratio[3]', 'i_div_ratio[1]', 'i_div_ratio[0]'.
+Warning: In design 'SYS_CTRL', output port 'CLK_EN' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL', output port 'CLK_DIV_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Wed Sep 20 03:29:12 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      9
+    Unconnected ports (LINT-28)                                     7
+    Constant outputs (LINT-52)                                      2
+
+Cells                                                              26
+    Cells do not drive (LINT-1)                                    15
+    Connected to power or ground (LINT-32)                         10
+    Nets connected to multiple pins on same cell (LINT-33)          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'Clock_Divider', cell 'C121' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C342' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C343' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C344' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C345' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C370' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C372' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'r_empty_P_SIZE4', cell 'C199' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', cell 'C202' does not drive any nets. (LINT-1)
+Warning: In design 'Serializer', cell 'C128' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C78' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C108' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C109' does not drive any nets. (LINT-1)
+Warning: In design 'deserializer', cell 'C103' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[7]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[6]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[5]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[4]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[3]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[2]' is connected to logic 1. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[1]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[0]' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'D' is connected to logic 1. 
+Warning: In design 'SYSTEM', the same net is connected to more than one pin on submodule 'U1_ClkDiv'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'i_div_ratio[7]', 'i_div_ratio[6]'', 'i_div_ratio[5]', 'i_div_ratio[4]', 'i_div_ratio[3]', 'i_div_ratio[1]', 'i_div_ratio[0]'.
+Warning: In design 'SYS_CTRL', output port 'CLK_EN' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL', output port 'CLK_DIV_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Wed Sep 20 03:35:28 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      9
+    Unconnected ports (LINT-28)                                     7
+    Constant outputs (LINT-52)                                      2
+
+Cells                                                              26
+    Cells do not drive (LINT-1)                                    15
+    Connected to power or ground (LINT-32)                         10
+    Nets connected to multiple pins on same cell (LINT-33)          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'Clock_Divider', cell 'C121' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C342' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C343' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C344' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C345' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C370' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C372' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'r_empty_P_SIZE4', cell 'C199' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', cell 'C202' does not drive any nets. (LINT-1)
+Warning: In design 'Serializer', cell 'C128' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C78' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C108' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C109' does not drive any nets. (LINT-1)
+Warning: In design 'deserializer', cell 'C103' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[7]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[6]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[5]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[4]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[3]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[2]' is connected to logic 1. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[1]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[0]' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'D' is connected to logic 1. 
+Warning: In design 'SYSTEM', the same net is connected to more than one pin on submodule 'U1_ClkDiv'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'i_div_ratio[7]', 'i_div_ratio[6]'', 'i_div_ratio[5]', 'i_div_ratio[4]', 'i_div_ratio[3]', 'i_div_ratio[1]', 'i_div_ratio[0]'.
+Warning: In design 'SYS_CTRL', output port 'CLK_EN' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL', output port 'CLK_DIV_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Wed Sep 20 03:56:21 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      9
+    Unconnected ports (LINT-28)                                     7
+    Constant outputs (LINT-52)                                      2
+
+Cells                                                              26
+    Cells do not drive (LINT-1)                                    15
+    Connected to power or ground (LINT-32)                         10
+    Nets connected to multiple pins on same cell (LINT-33)          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'Clock_Divider', cell 'C121' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C342' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C343' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C344' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C345' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C370' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C372' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'r_empty_P_SIZE4', cell 'C199' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', cell 'C202' does not drive any nets. (LINT-1)
+Warning: In design 'Serializer', cell 'C128' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C78' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C108' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C109' does not drive any nets. (LINT-1)
+Warning: In design 'deserializer', cell 'C103' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[7]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[6]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[5]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[4]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[3]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[2]' is connected to logic 1. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[1]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[0]' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'D' is connected to logic 1. 
+Warning: In design 'SYSTEM', the same net is connected to more than one pin on submodule 'U1_ClkDiv'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'i_div_ratio[7]', 'i_div_ratio[6]'', 'i_div_ratio[5]', 'i_div_ratio[4]', 'i_div_ratio[3]', 'i_div_ratio[1]', 'i_div_ratio[0]'.
+Warning: In design 'SYS_CTRL', output port 'CLK_EN' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL', output port 'CLK_DIV_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Wed Sep 20 04:03:08 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      9
+    Unconnected ports (LINT-28)                                     7
+    Constant outputs (LINT-52)                                      2
+
+Cells                                                              26
+    Cells do not drive (LINT-1)                                    15
+    Connected to power or ground (LINT-32)                         10
+    Nets connected to multiple pins on same cell (LINT-33)          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'Clock_Divider', cell 'C121' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C342' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C343' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C344' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C345' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C370' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C372' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'r_empty_P_SIZE4', cell 'C199' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', cell 'C202' does not drive any nets. (LINT-1)
+Warning: In design 'Serializer', cell 'C128' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C78' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C108' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C109' does not drive any nets. (LINT-1)
+Warning: In design 'deserializer', cell 'C103' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[7]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[6]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[5]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[4]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[3]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[2]' is connected to logic 1. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[1]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[0]' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'D' is connected to logic 1. 
+Warning: In design 'SYSTEM', the same net is connected to more than one pin on submodule 'U1_ClkDiv'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'i_div_ratio[7]', 'i_div_ratio[6]'', 'i_div_ratio[5]', 'i_div_ratio[4]', 'i_div_ratio[3]', 'i_div_ratio[1]', 'i_div_ratio[0]'.
+Warning: In design 'SYS_CTRL', output port 'CLK_EN' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL', output port 'CLK_DIV_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Wed Sep 20 04:28:54 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      9
+    Unconnected ports (LINT-28)                                     7
+    Constant outputs (LINT-52)                                      2
+
+Cells                                                              26
+    Cells do not drive (LINT-1)                                    15
+    Connected to power or ground (LINT-32)                         10
+    Nets connected to multiple pins on same cell (LINT-33)          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'ClkDiv', cell 'C120' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C342' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C343' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C344' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C345' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C370' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C372' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'r_empty_P_SIZE4', cell 'C199' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', cell 'C202' does not drive any nets. (LINT-1)
+Warning: In design 'Serializer', cell 'C128' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C78' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C108' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C109' does not drive any nets. (LINT-1)
+Warning: In design 'deserializer', cell 'C103' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[7]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[6]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[5]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[4]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[3]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[2]' is connected to logic 1. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[1]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[0]' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'D' is connected to logic 1. 
+Warning: In design 'SYSTEM', the same net is connected to more than one pin on submodule 'U1_ClkDiv'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'i_div_ratio[7]', 'i_div_ratio[6]'', 'i_div_ratio[5]', 'i_div_ratio[4]', 'i_div_ratio[3]', 'i_div_ratio[1]', 'i_div_ratio[0]'.
+Warning: In design 'SYS_CTRL', output port 'CLK_EN' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL', output port 'CLK_DIV_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Thu Sep 21 03:20:56 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      9
+    Unconnected ports (LINT-28)                                     7
+    Constant outputs (LINT-52)                                      2
+
+Cells                                                              26
+    Cells do not drive (LINT-1)                                    15
+    Connected to power or ground (LINT-32)                         10
+    Nets connected to multiple pins on same cell (LINT-33)          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'ClkDiv', cell 'C120' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C342' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C343' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C344' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C345' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C370' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C372' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'r_empty_P_SIZE4', cell 'C199' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', cell 'C202' does not drive any nets. (LINT-1)
+Warning: In design 'Serializer', cell 'C128' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C78' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C108' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C109' does not drive any nets. (LINT-1)
+Warning: In design 'deserializer', cell 'C103' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[7]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[6]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[5]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[4]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[3]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[2]' is connected to logic 1. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[1]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[0]' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'D' is connected to logic 1. 
+Warning: In design 'SYSTEM', the same net is connected to more than one pin on submodule 'U1_ClkDiv'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'i_div_ratio[7]', 'i_div_ratio[6]'', 'i_div_ratio[5]', 'i_div_ratio[4]', 'i_div_ratio[3]', 'i_div_ratio[1]', 'i_div_ratio[0]'.
+Warning: In design 'SYS_CTRL', output port 'CLK_EN' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL', output port 'CLK_DIV_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Fri Sep 22 15:57:31 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      9
+    Unconnected ports (LINT-28)                                     7
+    Constant outputs (LINT-52)                                      2
+
+Cells                                                              26
+    Cells do not drive (LINT-1)                                    15
+    Connected to power or ground (LINT-32)                         10
+    Nets connected to multiple pins on same cell (LINT-33)          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'ClkDiv', cell 'C120' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C342' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C343' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C344' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C345' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C370' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C372' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'r_empty_P_SIZE4', cell 'C199' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', cell 'C202' does not drive any nets. (LINT-1)
+Warning: In design 'Serializer', cell 'C128' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C78' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C108' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C109' does not drive any nets. (LINT-1)
+Warning: In design 'deserializer', cell 'C103' does not drive any nets. (LINT-1)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'w_full_POI_SIZE4', port 'wq2_rptr[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[7]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[6]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[5]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[4]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[3]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[2]' is connected to logic 1. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[1]' is connected to logic 0. 
+Warning: In design 'SYSTEM', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[0]' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A' is connected to logic 0. 
+Warning: In design 'UART_TX', a pin on submodule 'M1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'D' is connected to logic 1. 
+Warning: In design 'SYSTEM', the same net is connected to more than one pin on submodule 'U1_ClkDiv'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'i_div_ratio[7]', 'i_div_ratio[6]'', 'i_div_ratio[5]', 'i_div_ratio[4]', 'i_div_ratio[3]', 'i_div_ratio[1]', 'i_div_ratio[0]'.
+Warning: In design 'SYS_CTRL', output port 'CLK_EN' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'SYS_CTRL', output port 'CLK_DIV_EN' is connected directly to 'logic 1'. (LINT-52)
+1
